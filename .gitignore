@@ -1,0 +1,58 @@
+# Eclipse 
+.classpath 
+.project 
+.settings/ 
+
+# Intellij 
+.idea/ 
+.gradle/ 
+*.iml 
+*.iws 
+*.xml 
+*.editorconfig 
+
+# Gradle 
+log/ 
+target/ 
+hooks/pre-push 
+
+# Java 
+build/ 
+out/ 
+*.class 
+*.jar 
+*.war 
+*.ear
+
+# Log file 
+*.log 
+.scannerwork/report-task.txt 
+.scannerwork/.sonar_lock 
+.scannerwork/ 
+
+# Cache of project 
+.gradletasknamecache 
+
+#Evidencias 
+*.png 
+*.jpg
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#Ignore Gradle GUI config
+gradle-app.setting
+#Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
